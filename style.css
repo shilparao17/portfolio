@@ -81,6 +81,7 @@ nav ul li a:hover::after{
     font-size: 100px;
 }
 
+/*
 .name-text::after{
     content: 'Shilpa Rao';
     left: 20%;
@@ -91,8 +92,8 @@ nav ul li a:hover::after{
     margin-top: 60px;
     color: transparent;
 }
+*/
 
-/*
 
 hr{
     width: 56%;
@@ -101,7 +102,7 @@ hr{
     border-width: 0px;
 
 }
-*/
+
 
 .sub-name-text h1{
     font-size: 30px;

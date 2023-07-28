@@ -155,7 +155,7 @@ hr{
 }
 */
 
-.projects::after{
+.about-me::after{
     content: 'About';
     left: 44%;
     width: fit-content;

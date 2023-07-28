@@ -94,7 +94,7 @@ nav ul li a:hover::after{
 }
 */
 
-
+/*
 hr{
     width: 56%;
     height: 5px;
@@ -102,11 +102,13 @@ hr{
     border-width: 0px;
 
 }
+*/
 
 
 .sub-name-text h1{
     font-size: 30px;
     margin-top: 70px;
+    color: #0a76b0;
 }
 
 /*--------------ABOUT---------------*/

@@ -156,7 +156,7 @@ hr{
 */
 
 .about-me::after{
-    content: 'About';
+    content: 'About Me';
     left: 44%;
     width: fit-content;
     height: 3px;
@@ -730,7 +730,7 @@ hr{
 */
 
 .sub-title::after{
-    content: 'Contact';
+    content: 'Contact Me';
     left: 20.2%;
     width: fit-content;
     height: 3px;

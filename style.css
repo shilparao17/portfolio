@@ -93,7 +93,6 @@ nav ul li a:hover::after{
     color: transparent;
 }
 */
-
 /*
 hr{
     width: 56%;
@@ -281,6 +280,7 @@ hr{
 
 .experience-col-2{
     flex-basis: 75%;
+    padding-left: 10px;
 }
 
 .experience{
@@ -304,7 +304,7 @@ hr{
 
 .experience::after{
     content: 'Experience';
-    left: 35.1%;
+    left: 33%;
     width: fit-content;
     height: 3px;
     background: #0882C6;
@@ -413,6 +413,7 @@ hr{
     margin-left: 23%;
 }
 
+/*
 .prosthetic-knee::after{
     content: '';
     left: 34%;
@@ -421,6 +422,18 @@ hr{
     background: #0882C6;
     position: absolute;
     margin-top: 60px;
+}
+*/
+
+.prosthetic-knee::after{
+    content: 'Prosthetic Knee Design';
+    left: 34%;
+    width: fit-content;
+    height: 3px;
+    background: #0882C6;
+    position: absolute;
+    margin-top: 60px;
+    color: transparent;
 }
 
 .prosthesis-blurb p{
@@ -482,6 +495,7 @@ hr{
     margin-left: 18.5%;
 }
 
+/*
 .health-innovation::after{
     content: '';
     left: 31.26%;
@@ -491,6 +505,19 @@ hr{
     position: absolute;
     margin-top: 60px;
 }
+*/
+
+.health-innovation::after{
+    content: 'Health Innovation Challenge';
+    left: 31.26%;
+    width: fit-content;
+    height: 3px;
+    background: #0882C6;
+    position: absolute;
+    margin-top: 60px;
+    color: transparent;
+}
+
 
 .velocity-blurb p{
     font-size: 18px;
@@ -515,6 +542,7 @@ hr{
     margin-left: 15.7%;
 }
 
+/*
 .solar-decathlon::after{
     content: '';
     left: 29.5%;
@@ -524,6 +552,19 @@ hr{
     position: absolute;
     margin-top: 60px;
 }
+*/
+
+.solar-decathlon::after{
+    content: 'Solar Decathlon Competition';
+    left: 29.5%;
+    width: fit-content;
+    height: 3px;
+    background: #0882C6;
+    position: absolute;
+    margin-top: 60px;
+    color: transparent;
+}
+
 
 .architecture-blurb p{
     font-size: 18px;
@@ -568,6 +609,7 @@ hr{
     margin-right: -2%;
 }
 
+/*
 .wheelchair-exercise::after{
     content: '';
     left: 19%;
@@ -576,6 +618,18 @@ hr{
     background: #0882C6;
     position: absolute;
     margin-top: 60px;
+}
+*/
+
+.wheelchair-exercise::after{
+    content: 'Wheelchair-Accessible Exercise Equipment';
+    left: 19%;
+    width: fit-content;
+    height: 3px;
+    background: #0882C6;
+    position: absolute;
+    margin-top: 60px;
+    color: transparent;
 }
 
 .wheelchair-blurb p{
@@ -614,6 +668,7 @@ hr{
     margin-left: 17.5%;
 }
 
+/*
 .b-mode::after{
     content: '';
     left: 30.65%;
@@ -622,6 +677,18 @@ hr{
     background: #0882C6;
     position: absolute;
     margin-top: 60px;
+}
+*/
+
+.b-mode::after{
+    content: 'B-Mode Ultrasound Imaging';
+    left: 30.65%;
+    width: fit-content;
+    height: 3px;
+    background: #0882C6;
+    position: absolute;
+    margin-top: 60px;
+    color: transparent;
 }
 
 .ultrasound-blurb p{
@@ -661,6 +728,7 @@ hr{
     margin-left: 28%;
 }
 
+/*
 .puzzle::after{
     content: '';
     left: 37%;
@@ -669,6 +737,18 @@ hr{
     background: #0882C6;
     position: absolute;
     margin-top: 60px;
+}
+*/
+
+.puzzle::after{
+    content: '3D Printed Puzzle';
+    left: 37%;
+    width: fit-content;
+    height: 3px;
+    background: #0882C6;
+    position: absolute;
+    margin-top: 60px;
+    color: transparent;
 }
 
 .puzzle-blurb p{

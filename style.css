@@ -280,7 +280,7 @@ hr{
 
 .experience-col-2{
     flex-basis: 75%;
-    padding-left: 5%;
+    padding-left: 10px;
 }
 
 .experience{
@@ -830,6 +830,24 @@ hr{
 .contact-left p span{
     font-size: 20px;
     color: #0a76b0;
+}
+
+.contact-left p a{
+        /*
+        display: flex;
+        display: block;
+        float: left;
+        padding: 1px;
+        */
+        list-style: none;
+        /*
+        margin: 1px 4%;
+        */
+        color: #3d3d3d;
+        /*text-decoration: none;*/
+        font-family: 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        position: relative;
 }
 
 .contact-right{

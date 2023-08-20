@@ -888,3 +888,313 @@ form input, form textarea{
     margin-top: -10px;
     display: block;
 }
+
+
+
+
+
+
+/*-------------------MOBILE---------------------*/
+
+
+@media only screen and (max-width: 600px) {
+    #header{
+        background-image: url(images/phone-background.png);
+    }
+    
+    .name-text{
+        margin-top: 40%;
+        font-size: 45px;
+    }
+
+    .sub-name-text h1{
+        font-size: 24px;
+        margin-top: 10%;
+        color: #0a76b0;
+    }
+
+    nav{
+        display: flex;
+        display: block;
+        align-items: right;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-left: 0%;
+        list-style: none;
+    }
+
+    nav ul li a{
+        display: flex;
+        display: block;
+        float: left;
+        padding: 1px;
+        list-style: none;
+        margin: 2%;
+        color: #272626;
+        text-decoration: none;
+        font-family: 'Trebuchet MS', sans-serif;
+        font-size: 14px;
+        position: relative;
+    }
+    
+    nav ul li a::after{
+        content: '';
+        width: 100%;
+        height: 2px;
+        background: #0882C6;
+        position: absolute;
+        left: 0;
+        bottom: -4px;
+    
+    }
+
+    #about{
+        padding: 10px 0;
+        color: #3d3d3d;
+    }
+
+    .about-col-1{
+        flex-basis: 45%;
+    }
+    
+    .about-col-1 img{
+        width: 100%;
+        border-radius: 15px;
+    }
+    
+    .about-col-2{
+        flex-basis: 50%;
+    }
+
+    .about-me{
+        font-size: 45px;
+        font-weight: 600;
+        color: #272626;
+        align-items: left;
+    }
+
+    .about-me::after{
+        content: 'About Me';
+        left: 49%;
+        width: fit-content;
+        height: 3px;
+        background: #0882C6;
+        position: absolute;
+        margin-top: 60px;
+        color: transparent;
+    }
+
+    .about-tabs{
+        display: flex;
+        /*display: block;*/
+        list-style: none;
+        float: left;
+        margin: 20px 0 40px;
+    }
+    
+    .tab-links{
+        margin-right: 50px;
+        font-size: 16px;
+        font-weight: 500;
+        display: flex;
+        /*display: block;*/
+        list-style: none;
+        float: left;
+        cursor: pointer;
+        position: relative;
+        color: #272626;
+    }
+    
+    .tab-links::after{
+        content: '';
+        width: 0;
+        height: 2px;
+        background: #0882C6;
+        position: absolute;
+        left: 0;
+        bottom: -3px;
+        transition: 0.5s;
+    }
+
+    .experience::after{
+        content: 'Experience';
+        left: 23.8%;
+        width: fit-content;
+        height: 3px;
+        background: #0882C6;
+        position: absolute;
+        margin-top: 60px;
+        color: transparent;
+    }
+
+    .projects{
+        font-size: 45px;
+        font-weight: 600;
+        color: #272626;
+        margin-left: 16%;
+    }
+
+    .projects::after{
+        content: 'Projects';
+        left: 30%;
+        width: fit-content;
+        height: 3px;
+        background: #0882C6;
+        position: absolute;
+        margin-top: 60px;
+        color: transparent;
+    }
+
+    .contact-right{
+        flex-basis: 100%;
+        /*margin-left: 40%;*/
+    }
+    
+    .btn{
+        display: inline-block;
+        color: #ffffff;
+        background: #0a76b0;
+        width: 30%;
+        padding: 14px;
+        font-size: 15px;
+        cursor: pointer;
+        border-radius: 6px;
+        margin-bottom: 15px;
+    }
+    
+    .contact-right form{
+        width: 100%;
+    }
+    
+    form input, form textarea{
+        width: 100%;
+        border: 2px solid #0882C6;
+        background: #ffffff;
+        padding: 10px;
+        margin: 8px 0;
+        color: #3d3d3d;
+        font-size: 18px;
+        border-radius: 6px;
+    
+    }
+    
+    #msg{
+        color:#3d3d3d;
+        margin-top: -10px;
+        display: block;
+    }
+
+    .prosthetic-knee{
+        font-size: 30px;
+        font-weight: 600;
+        color: #272626;
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+
+    .prosthetic-knee::after{
+        content: 'Prosthetic Knee';
+        left: 20%;
+        width: fit-content;
+        height: 3px;
+        background: #0882C6;
+        position: absolute;
+        margin-top: 60px;
+        color: transparent;
+    }
+
+    .health-innovation{
+        font-size: 30px;
+        font-weight: 600;
+        color: #272626;
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+    
+    .health-innovation::after{
+        content: 'Innovation';
+        left: 20%;
+        width: fit-content;
+        height: 3px;
+        background: #0882C6;
+        position: absolute;
+        margin-top: 60px;
+        color: transparent;
+    }
+
+    .solar-decathlon{
+        font-size: 30px;
+        font-weight: 600;
+        color: #272626;
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+    
+    .solar-decathlon::after{
+        content: 'Solar Decathlon';
+        left: 20%;
+        width: fit-content;
+        height: 3px;
+        background: #0882C6;
+        position: absolute;
+        margin-top: 60px;
+        color: transparent;
+    }
+
+    .wheelchair-exercise{
+        font-size: 30px;
+        font-weight: 600;
+        color: #272626;
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+
+    .wheelchair-exercise::after{
+        content: 'Wheelchair-';
+        left: 20%;
+        width: fit-content;
+        height: 3px;
+        background: #0882C6;
+        position: absolute;
+        margin-top: 60px;
+        color: transparent;
+    }
+
+    .b-mode{
+        font-size: 30px;
+        font-weight: 600;
+        color: #272626;
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+    
+    .b-mode::after{
+        content: 'Ultrasound';
+        left: 20%;
+        width: fit-content;
+        height: 3px;
+        background: #0882C6;
+        position: absolute;
+        margin-top: 60px;
+        color: transparent;
+    }
+
+    .puzzle{
+        font-size: 30px;
+        font-weight: 600;
+        color: #272626;
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+    
+    .puzzle::after{
+        content: '3D Printed';
+        left: 20%;
+        width: fit-content;
+        height: 3px;
+        background: #0882C6;
+        position: absolute;
+        margin-top: 60px;
+        color: transparent;
+    }
+}

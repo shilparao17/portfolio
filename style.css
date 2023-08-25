@@ -1151,7 +1151,7 @@ form input, form textarea{
 
     .experience::after{
         content: 'Experience';
-        left: 28.5%;
+        left: 25%;
         width: fit-content;
         height: 3px;
         background: #0882C6;

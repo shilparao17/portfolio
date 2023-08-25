@@ -10,7 +10,7 @@
 
     <body>
         <div id="header">
-            <div class="container">
+            <div class="desktop-container">
                 <nav>
                     <ul>
                         <li><a href="#header">Home</a></li>
@@ -22,7 +22,6 @@
                 </nav>
                 <div class="name-text">
                     <p>SHILPA RAO</p>
-                    <!--<hr> -->
                 </div>
                 <div class="sub-name-text">
                     <h1>Biomedical Engineering Student</h1>
@@ -30,6 +29,27 @@
             </div>
         </div>
     <main>
+
+        <!--------------MOBILE-------------->
+        <div id="mobile-header">
+            <div class="mobile-container">
+                <nav>
+                    <ul>
+                        <li><a href="#mobile-header">Home</a></li>
+                        <li><a href="#about-mobile">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#mobile-projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="name-text">
+                    <p>SHILPA RAO</p>
+                </div>
+                <div class="sub-name-text">
+                    <h1>Biomedical Engineering Student</h1>
+                </div>
+            </div>
+        </div>
 <!------------------ABOUT------------------->
         <div id="about">
             <div class="container">
@@ -66,6 +86,56 @@
                 
             </div>
         </div>
+
+<!---------------ABOUT-MOBILE---------------->
+        <div id="about-mobile">
+            <div class="container">
+                <div class="row">
+                    <div class="about-mobile-col-1">
+                        <img src="images/about.png">
+                    </div>
+                    <div class="about-mobile-col-2">
+                        <h1 class="about-me-mobile">About Me</h1>
+                    </div>
+                    <div class="about-mobile-blurb">
+                        <p><br>My name is Shilpa Rao and I am a second year student, studying biomedical engineering at the University of Waterloo. I am a very passionate individual, with an interest in the intersection of medicine, technology, and design.</p>
+                        <p><br>I have a background in a Visual Arts specialization from Canterbury High School of the Arts; I aspire to use my fine arts background and biotechnology studies to contribute to healthcare advances, via designing medical devices, prosthetics, human factors, or conducting synthetic biological research.</p>
+                        <p><br>This website is made to showcase my profile as a biomedical engineering student. My contact information is below, please do not hesitate to reach out. I hope you enjoy!</p>
+                        <br>
+                        <img src="images/mobile-interests.png">
+                    </div>
+                </div>
+
+                <div class="mobile-row-2">
+                    <div class="mobile-interests-col-1">
+                        <div class="mobile-about-tabs">
+                            <p class="mobile-tab-links mobile-active-link" onclick="opentab('mobile-inspiration')">My Inspiration</p>
+                            <p class="mobile-tab-links" onclick="opentab('mobile-hobbies')">My Hobbies</p>
+                        </div>
+                        <div class="mobile-tab-contents mobile-active-tab" id="mobile-inspiration">
+                            <p>For the longest time, I had my heart set on becoming an architect, because I thought it was the best way to "build a better future" while combining my interests in STEM and design fields.<br><br>In grade 11, I struggled with a few health issues. While recovering, I became very interested in the biological mechanisms with what was happening to me, the treatment and recovery process, food sciences such as macromolecules and micronutrients, and the whole medical field in general. I started conducting research and reading academic articles on these topics for fun in my free time.<br><br>Additionally, my grandparents have been a part of my household for the past three years, due to their health issues. When I was in grade 12, my grandfather's kidneys failed and he was put on emergency dialysis. Then, during my first year of university he suffered a stroke; thankfully, he survived because of the advances in healthcare that we are fortunate to have. This put a lot of strain on my family, but more than anything, I took an interest into his healthcare, from his continuous glucose monitor to his dialysis. I started doing my own research and I knew I needed to take part in health innovation.<br><br>Now, my overall goal for my career is to incorporate medicine, research, design, technology, sustainability and accessibility. Ultimately, I want to use my strengths and passions to leave the world knowing I had a positive impact.<br><br><br><br></p>
+                        </div>
+                        <div class="mobile-tab-contents" id="mobile-hobbies">
+                            <p>Outside of academics, I am someone who is passionate about fitness and the arts.<br><br>I am a professional dancer for the Saveeta Sharma Dance Company and a dance teacher for Upasana the Spirit of Dance. I have been studying Kathak, an Indian classical dance form since I was five years old, and gave my first professional performance at the age of 15, in 2019.<br><br>I enjoy visual arts such as painting and ceramics; my first professional mural, entitled "A New Tomorrow", was installed in 2022. It is a combination of the two media, showcasing my dream of combining STEM and design to create a better future.<br><br>Additionally, a major part of my life includes weightlifting. Lifting weights is something that allows me to completely focus on getting stronger, bettering myself day by day.<br><br>And finally, in addition to these hobbies, I play intramural soccer at the University of Waterloo and enjoy singing for the university's a cappella team called ACE. I also like to write songs and compose music when I have spare time.<br><br>As someone with many interests, it is very important to me to maintain a balance between hobbies and academics, and I am proud to say that maintaining this balance has become a strength.<br><br></p>
+                        </div>
+                    </div>
+                    <!---
+                    <div class="interests-col-2">
+                        <img src="images/interests.png">
+                    </div>
+                    --->
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
 <!-------------EXPERIENCE--------------->
 
         <div id="experience">
@@ -186,6 +256,29 @@
     </div>
 
 
+<!--------------PORTFOLIO---------------->
+<div id="mobile-projects">
+    <div class="container">
+        <h1 class="projects">Projects</h1>
+        <div class="row-4">
+            <div class="mobile-portfolio-col-1">
+                <p><a href="prosthetic-knee.html"><img src="images/Thumbnail-1.png"><br><br></a></p>
+                <p><a href="solar-decathlon.html"><img src="images/Thumbnail-3.png"><br><br></a></p>
+                <p><a href="b-mode.html"><img src="images/Thumbnail-5.png"><br><br><br></a></p>
+                
+            </div>
+            <div class="mobile-portfolio-col-2">
+                <p><a href="health-innovation.html"><img src="images/Thumbnail-2.png"><br><br></a></p>
+                <p><a href="wheelchair-exercise.html"><img src="images/Thumbnail-4.png"><br><br></a></p>
+                <p><a href="3d-puzzle.html"><img src="images/Thumbnail-6.png"><br><br><br></a></p>
+                
+            </div>
+            <br><br><br><br>
+        </div>
+    </div>
+</div>
+
+
 <!----------------CONTACT----------------->
 
 
@@ -271,6 +364,54 @@
 
 </main>
 
+
+
+    <script>
+
+        if (screen.width<=600) {
+            var mobiletablinks = document.getElementsByClassName("mobile-tab-links");
+            var mobiletabcontents = document.getElementsByClassName("mobile-tab-contents");
+
+            function opentab(mobiletabname){
+                for(mobiletablink of mobiletablinks){
+                    mobiletablink.classList.remove("mobile-active-link");
+                }
+                for(mobiletabcontent of mobiletabcontents){
+                    mobiletabcontent.classList.remove("mobile-active-tab");
+                }
+                
+                event.currentTarget.classList.add("mobile-active-link");
+                document.getElementById(mobiletabname).classList.add("mobile-active-tab");
+                
+            }
+        }
+
+        else{
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+                
+            }
+        }
+
+    </script>
+
+
+
+
+
+
+<!--
     <script>
 
         var tablinks = document.getElementsByClassName("tab-links");
@@ -289,6 +430,32 @@
             
         }
     </script>
+
+
+
+
+    <script>
+
+        var mobiletablinks = document.getElementsByClassName("mobile-tab-links");
+        var mobiletabcontents = document.getElementsByClassName("mobile-tab-contents");
+
+        function opentab(mobiletabname){
+            for(mobiletablink of mobiletablinks){
+                mobiletablink.classList.remove("mobile-active-link");
+            }
+            for(mobiletabcontent of mobiletabcontents){
+                mobiletabcontent.classList.remove("mobile-active-tab");
+            }
+            
+            event.currentTarget.classList.add("mobile-active-link");
+            document.getElementById(mobiletabname).classList.add("mobile-active-tab");
+            
+        }
+    </script>
+
+-->
+
+    
 
     <script>
         const scriptURL = 'https://script.google.com/macros/s/AKfycbxX-JKjbq-fnTAadXubwQZPxX3TUDAg7U70PvR2h7RGWKxh5XI2ZoiVXR6ztwpah03Kow/exec'

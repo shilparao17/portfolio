@@ -510,6 +510,98 @@ hr{
     border: 2px solid #0882C6;
 }
 
+
+/*---------------PORTFOLIO WEBSITE----------------*/
+
+.website{
+    font-size: 45px;
+    font-weight: 600;
+    color: #272626;
+    margin-left: 11.5%;
+}
+
+.website::after{
+    content: 'UX/UI and Website Development';
+    left: 27%;
+    width: fit-content;
+    height: 3px;
+    background: #0882C6;
+    position: absolute;
+    margin-top: 60px;
+    color: transparent;
+}
+
+.website-blurb p{
+    font-size: 18px;
+    color: #3d3d3d;
+}
+
+.website-blurb p span{
+    font-size: 18px;
+    color: #0a76b0;
+}
+
+.website-col-1{
+    flex-basis: 100%;
+}
+
+.website-col-1 img{
+    width: 100%;
+    border: 2px solid #0882C6;
+}
+
+
+/*----------------PROSTHETIC FOOT------------------*/
+
+.prosthetic-foot{
+    font-size: 45px;
+    font-weight: 600;
+    color: #272626;
+    margin-left: 0%;
+    align-items: center;
+}
+
+.prosthetic-foot::after{
+    content: 'Prosthetic Foot Redesigned for Stiffness';
+    left: 20%;
+    width: fit-content;
+    height: 3px;
+    background: #0882C6;
+    position: absolute;
+    margin-top: 60px;
+    color: transparent;
+}
+
+.foot-blurb p{
+    font-size: 18px;
+    color: #3d3d3d;
+}
+
+.foot-blurb p span{
+    font-size: 18px;
+    color: #0a76b0;
+}
+
+.foot-col-1{
+    flex-basis: 64.3%;
+}
+
+.foot-col-1 img{
+    width: 100%;
+    border: 2px solid #0882C6;
+}
+
+.foot-col-2{
+    flex-basis: 30.7%;
+}
+
+.foot-col-2 img{
+    width: 100%;
+    border: 2px solid #0882C6;
+}
+
+
+
 /*-----------HEALTH INNOVATION CHALLENGE-----------*/
 
 .health-innovation{
@@ -805,6 +897,90 @@ hr{
 }
 
 .puzzle-col-2 img{
+    width: 100%;
+    border: 2px solid #0882C6;
+}
+
+/*----------------MURAL-----------------*/
+
+.mural{
+    font-size: 45px;
+    font-weight: 600;
+    color: #272626;
+    margin-left: 28%;
+}
+
+.mural::after{
+    content: 'A New Tomorrow';
+    left: 36.8%;
+    width: fit-content;
+    height: 3px;
+    background: #0882C6;
+    position: absolute;
+    margin-top: 60px;
+    color: transparent;
+}
+
+.mural-blurb p{
+    font-size: 18px;
+    color: #3d3d3d;
+}
+
+.mural-blurb p span{
+    font-size: 18px;
+    color: #0a76b0;
+}
+
+.mural-col-1{
+    flex-basis: 49%;
+}
+
+.mural-col-1 img{
+    width: 100%;
+    border: 2px solid #0882C6;
+}
+
+.mural-col-2{
+    flex-basis: 49%;
+}
+
+.mural-col-2 img{
+    width: 100%;
+    border: 2px solid #0882C6;
+}
+
+.mural-col-3{
+    flex-basis: 22%;
+}
+
+.mural-col-3 img{
+    width: 100%;
+    border: 2px solid #0882C6;
+}
+
+.mural-col-4{
+    flex-basis: 24.5%;
+}
+
+.mural-col-4 img{
+    width: 100%;
+    border: 2px solid #0882C6;
+}
+
+.mural-col-5{
+    flex-basis: 24.5%;
+}
+
+.mural-col-5 img{
+    width: 100%;
+    border: 2px solid #0882C6;
+}
+
+.mural-col-6{
+    flex-basis: 24.5%;
+}
+
+.mural-col-6 img{
     width: 100%;
     border: 2px solid #0882C6;
 }

@@ -1582,5 +1582,43 @@ form input, form textarea{
         color: transparent;
     }
 
+    .prosthetic-foot{
+        font-size: 30px;
+        font-weight: 600;
+        color: #272626;
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+    
+    .prosthetic-foot::after{
+        content: 'Prosthetic Foot';
+        left: 20%;
+        width: fit-content;
+        height: 3px;
+        background: #0882C6;
+        position: absolute;
+        margin-top: 60px;
+        color: transparent;
+    }
+
+    .mural{
+        font-size: 28.5px;
+        font-weight: 600;
+        color: #272626;
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+    
+    .mural::after{
+        content: 'A New Tomorrow';
+        left: 20%;
+        width: fit-content;
+        height: 3px;
+        background: #0882C6;
+        position: absolute;
+        margin-top: 60px;
+        color: transparent;
+    }
+
     
 }

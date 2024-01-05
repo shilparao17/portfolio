@@ -557,13 +557,13 @@ hr{
     font-size: 45px;
     font-weight: 600;
     color: #272626;
-    margin-left: 0%;
+    margin-left: 2.7%;
     align-items: center;
 }
 
 .prosthetic-foot::after{
     content: 'Prosthetic Foot Redesigned for Stiffness';
-    left: 20%;
+    left: 21.7%;
     width: fit-content;
     height: 3px;
     background: #0882C6;

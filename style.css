@@ -992,12 +992,12 @@ hr{
     font-size: 45px;
     font-weight: 600;
     color: #272626;
-    margin-left: 28%;
+    margin-left: 21%;
 }
 
 .pump::after{
     content: 'Peristaltic Pump Design';
-    left: 36.8%;
+    left: 32.7%;
     width: fit-content;
     height: 3px;
     background: #0882C6;
@@ -1017,15 +1017,16 @@ hr{
 }
 
 .pump-col-1{
-    flex-basis: 37.1%;
+    flex-basis: 44%;
 }
 
 .pump-col-1 img{
     width: 100%;
+    border: 2px solid #0a76b0;
 }
 
 .pump-col-2{
-    flex-basis: 57.9%;
+    flex-basis: 51%;
 }
 
 .pump-col-2 img{
@@ -1677,7 +1678,7 @@ form input, form textarea{
     }
     
     .pump::after{
-        content: 'Peristaltic Pump Design';
+        content: 'Peristaltic Pump';
         left: 20%;
         width: fit-content;
         height: 3px;

@@ -986,6 +986,54 @@ hr{
 }
 
 
+/*----------------PUMP-----------------*/
+
+.pump{
+    font-size: 45px;
+    font-weight: 600;
+    color: #272626;
+    margin-left: 28%;
+}
+
+.pump::after{
+    content: 'Peristaltic Pump Design';
+    left: 36.8%;
+    width: fit-content;
+    height: 3px;
+    background: #0882C6;
+    position: absolute;
+    margin-top: 60px;
+    color: transparent;
+}
+
+.pump-blurb p{
+    font-size: 18px;
+    color: #3d3d3d;
+}
+
+.pump-blurb p span{
+    font-size: 18px;
+    color: #0a76b0;
+}
+
+.pump-col-1{
+    flex-basis: 37.1%;
+}
+
+.pump-col-1 img{
+    width: 100%;
+}
+
+.pump-col-2{
+    flex-basis: 57.9%;
+}
+
+.pump-col-2 img{
+    width: 100%;
+    border: 2px solid #0a76b0;
+}
+
+
 /*---------------CONTACT----------------*/
 
 .contact-left{
@@ -1611,6 +1659,25 @@ form input, form textarea{
     
     .mural::after{
         content: 'A New Tomorrow';
+        left: 20%;
+        width: fit-content;
+        height: 3px;
+        background: #0882C6;
+        position: absolute;
+        margin-top: 60px;
+        color: transparent;
+    }
+
+    .pump{
+        font-size: 28.5px;
+        font-weight: 600;
+        color: #272626;
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+    
+    .pump::after{
+        content: 'Peristaltic Pump Design';
         left: 20%;
         width: fit-content;
         height: 3px;

@@ -835,6 +835,106 @@ hr{
     border: 2px solid #0882C6;
 }
 
+/*---------------MORSE-CODE---------------*/
+
+.morse-code{
+    font-size: 45px;
+    font-weight: 600;
+    color: #272626;
+    margin-left: 11.1%;
+}
+
+/*
+.b-mode::after{
+    content: '';
+    left: 30.65%;
+    width: 38.55%;
+    height: 3px;
+    background: #0882C6;
+    position: absolute;
+    margin-top: 60px;
+}
+*/
+
+.morse-code::after{
+    content: 'EMG-Powered Morse Code Tapper';
+    left: 26.8%;
+    width: fit-content;
+    height: 3px;
+    background: #0882C6;
+    position: absolute;
+    margin-top: 60px;
+    color: transparent;
+}
+
+.morse-blurb p{
+    font-size: 18px;
+    color: #3d3d3d;
+}
+
+.morse-blurb p span{
+    font-size: 18px;
+    color: #0a76b0;
+}
+
+.morse-schematic-1{
+    flex-basis: 100%;
+}
+
+.morse-schematic-1 img{
+    width: 100%;
+    border: 2px solid #0882C6;
+}
+
+.morse-col-1{
+    flex-basis: 50%;
+}
+
+.morse-col-1 img{
+    width: 100%;
+    border: 2px solid #0882C6;
+}
+
+.morse-col-2{
+    flex-basis: 45%;
+}
+
+.morse-col-2 img{
+    width: 100%;
+    border: 2px solid #0882C6;
+}
+
+.morse-full-1{
+    flex-basis: 40.6%;
+}
+
+.morse-full-1 img{
+    width: 100%;
+    border: 2px solid #0882C6;
+}
+.morse-full-2{
+    flex-basis: 31.1%;
+}
+
+.morse-full-2 img{
+    width: 100%;
+    border: 2px solid #0882C6;
+}
+.morse-full-3{
+    flex-basis: 19.4%;
+}
+
+.morse-full-3 img{
+    width: 100%;
+    border: 2px solid #0882C6;
+}
+
+.morse-blurb iframe{
+    width: 100%;
+    height: 600px;
+    border: #0882C6 5px solid;
+}
+
 /*-----------3D PUZZLE DESIGN---------*/
 
 .puzzle{
